@@ -195,7 +195,7 @@ button:disabled {
 }
 
 .summary-box {
-  background-color: #EFF6FF; /* Blue 50 */
+  background-color: #3b3c3d; /* Blue 50 */
   border-left: 4px solid var(--primary-color);
   padding: 1rem 1.5rem;
   margin: 2rem 0;

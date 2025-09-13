@@ -10,26 +10,29 @@ const apiClient = axios.create({
 
 // Define all your API calls in one place
 export default {
-  // Community Reporting
+  // --- Community Reporting ---
   submitCaseReport(report) {
     return apiClient.post('/report/case', report);
   },
 
-  // Health Official Dashboard
+  // --- Health Official Dashboard ---
   getHotspots() {
     return apiClient.get('/dashboard/hotspots');
   },
   getWaterData(location) {
+    // Assuming you have a '/dashboard/iot-water-data/{location}' endpoint
     return apiClient.get(`/dashboard/iot-water-data/${location}`);
   },
 
-  // Doctor's Clinical View
+  // --- Doctor's Clinical View ---
   getPatientHistory(patientId) {
-    return apiClient.get(`/patient/${patientId}/history`);
+    // CORRECTED: The URL now matches the backend endpoint exactly.
+    return apiClient.get(`/patient/${patientId}`);
   },
-  // We need a separate backend for the AI model
+  
+  // --- AI Microservice ---
   getAiSummary(textToSummarize) {
-    // This calls the Python microservice (running on port 8000)
+    // This calls the separate Python microservice (running on port 8000)
     return axios.post('http://localhost:8000/summarize', { text: textToSummarize });
   },
 };
