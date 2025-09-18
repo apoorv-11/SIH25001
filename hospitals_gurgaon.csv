@@ -1,0 +1,26 @@
+hospital_name,type,lat,lon,icu_beds_available,emergency_beds_available,ambulances_available
+Medanta - The Medicity,Private,28.4365,77.0425,150,300,45
+Fortis Memorial Research Institute,Private,28.4525,77.0722,80,180,35
+Artemis Hospital,Private,28.4414,77.0543,75,150,30
+Max Hospital,Private,28.4608,77.0682,60,140,25
+Civil Hospital Sector 10,Government,28.4550,77.0350,20,80,10
+ESIC Hospital,Government,28.4750,77.0450,15,60,8
+Paras Hospital,Private,28.4715,77.0581,50,120,20
+Cloudnine Hospital,Private,28.4650,77.0650,10,30,
+Narayana Superspeciality Hospital,Private,28.4780,77.0750,40,90,12
+W Pratiksha Hospital,Private,28.4680,77.0780,30,70,10
+Park Hospital,Private,28.4590,77.0490,25,60,8
+Sheetla Mata Medical College and Hospital,Government,28.4690,77.0390,30,100,15
+Columbia Asia Hospital,Private,28.5020,77.0580,45,110,18
+Manipal Hospital,Private,28.5080,77.0620,35,80,11
+Mayom Hospital,Private,28.4450,77.0400,18,40,6
+hospital_name,type,lat,lon,icu_beds_available,emergency_beds_available,ambulances_available
+AIIMS Delhi,Government,28.5672,77.2100,200,500,50
+Safdarjung Hospital,Government,28.5713,77.1846,150,300,30
+Sir Ganga Ram Hospital,Private,28.6315,77.1663,120,250,25
+Max Hospital Delhi,Private,28.5849,77.1675,80,150,20
+Doon Hospital,Government,30.3170,78.0529,40,100,15
+Himalayan Health Center,Private,30.3200,78.0470,25,60,10
+Kamrup District Hospital,Government,26.1445,91.7350,30,75,12
+Nagaon Medical Center,Government,26.3500,92.6810,25,50,8
+Jorhat Super Specialty Hospital,Private,26.7500,94.2300,35,70,15

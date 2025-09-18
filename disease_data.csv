@@ -1,0 +1,11 @@
+fever,cough,sore_throat,rash,headache,joint_pain,stomach_pain,disease
+1,1,1,0,0,0,0,Viral Fever
+1,1,0,0,1,0,0,Viral Fever
+1,0,0,1,1,1,0,Dengue
+1,0,0,1,1,0,0,Dengue
+1,0,0,0,1,1,1,Typhoid
+1,0,0,0,1,0,1,Typhoid
+0,1,1,0,0,0,0,Common Cold
+1,1,0,0,0,1,0,Viral Fever
+1,0,1,1,1,1,0,Dengue
+1,1,0,0,1,1,1,Typhoid
